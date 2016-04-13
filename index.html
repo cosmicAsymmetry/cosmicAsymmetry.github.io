@@ -1,18 +1,39 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sidhant Bhavnani</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />`
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="typed.js" type="text/javascript"></script>
+    <script>
+    $(function(){
+        $(".element").typed({
+            strings: ["Hello! ^500My name is Sidhant Bhavnani."],
+            typeSpeed: 1.5
+        });
+    });
+</script>
+  </head>
+  <body class="grad">
+    <div class="container">
+      <div class="element h1"></div>
+      <p>
+        I am currently a highschooler studying Computer Science. I do Software Development and study Theoretical Computer Science, my CS projects can be found on my GitHub profile. I also do some Photography (check out my Instagram!)
+      </p>
+      <br><br><br>
+      <a target="_blank" href="http://instagram.com/cosmicasymmetry"><i class="ion-social-instagram-outline"></i></a>
+      <a target="_blank" href="http://github.com/cosmicasymmetry"><i class="ion-social-github"></i></a>
+      <a target="_blank" href="mailto:hi@sidhant.me"><i class="ion-email"></i></a>
+      <a target="_blank" href="http://twitter.com/cosmicasymmetry"><i class="ion-egg"></i></a>
+      <a target="_blank" href="http:///sidhant.xyz"><i class="ion-social-wordpress"></i></a>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+<p class="cprt">
+  © Sidhant Bhavnani 2016
+</p>
+    </div>
+  </body>
+</html>
