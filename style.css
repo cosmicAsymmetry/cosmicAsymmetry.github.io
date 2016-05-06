@@ -46,7 +46,6 @@ body{
 }
 a{
   display: inline-block;
-  width: 42px;
   text-align: center;
   font-style: normal;
   font-size: 31.4px;
@@ -55,6 +54,9 @@ a{
   color: inherit;
   margin-right: 5px;
   margin-bottom:20px;
+}
+.a{
+  width: 42px;
 }
 .a2{
   display: inline-block;
