@@ -56,6 +56,17 @@ a{
   margin-right: 5px;
   margin-bottom:20px;
 }
+.a2{
+  display: inline-block;
+  text-align: center;
+  font-style: normal;
+  font-size: inherit;
+  opacity: 0.7;
+  transition: 0.2s;
+  color: inherit;
+  margin-right: 5px;
+  margin-bottom:20px;
+}
 a:hover{
   opacity: 1;
   transition: 0.2s;
