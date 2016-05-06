@@ -66,8 +66,6 @@ a{
   opacity: 0.7;
   transition: 0.2s;
   color: inherit;
-  margin-right: 5px;
-  margin-bottom:20px;
 }
 a:hover{
   opacity: 1;
