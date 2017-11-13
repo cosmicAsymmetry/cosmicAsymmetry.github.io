@@ -253,6 +253,7 @@ section h2{
   width: calc(29.16667% - 25px);
   margin: 0 12.5px;
   font-weight: bold;
+  display: inline-block;
 }
 .contact a{
   font-size: 20px;
